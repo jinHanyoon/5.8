@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+
+ /* 0------------------------------헤더시작------------------------
+ 하이퍼 a태그 스타일 + */
+ #header{
+   background-color: white;
+   border-bottom:1px solid lightgray;
+
+ }
+ a{color: inherit;
+text-decoration: none;}
+
+.ddd21  {
+    transition: all 0.2s linear;
+    
+  }
+  .ddd21:hover {
+    transform: scale(1.4);
+  }
+ 
+ 
+ .container{
+     width: 980px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+
+  
+ 
+ .logo{
+     float: left;
+ }
+  
+ 
+
+ .menu-item{
+    display: inline;
+    
+     padding-right: 80px;
+     font-weight: bold;
+     text-align: center;
+     margin: 0 auto;
+     
+ }
+  
+ .ff{display: flex;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    background-image: url(/프로필사진/누나프로필배경4.jpg);
+   
+    
+    }
+    
+    .box {
+        width: 300px;
+        height: 300px; 
+        border-radius: 70%;
+        overflow: hidden;
+        margin: 50px;
+        position: relative;
+        top: 40%;
+        right: 5%;
+        
+        
+    }
+    .profile {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .ff img {
+        transition: all 0.2s linear;
+      }
+      .ff:hover img {
+        transform: scale(1.4);
+      }
+
+.ff_text{position: relative;
+left: 40%;
+top:10%;
+font-size: 40px;
+color: rgb(80, 143, 199);}
+
+ 
+ 
