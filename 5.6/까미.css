@@ -1,6 +1,9 @@
+
+
 *{margin: 0;
-    padding: 0;}
-    
+    padding: 0;
+}
+.fa-solid{color: red;}
     
     #header{
         background-color: white;
@@ -52,26 +55,8 @@
       }
     
     
-    .mainp{
-        width: 100%;
-        height: 1000px;
-        border: solid 2px rgb(109, 101, 101);
-        background-color: rgba(185, 185, 184, 0.836);
-    }
-    
-    .mainp img{position: relative;
-    top:100px;
-    left: 20%;}
-    
-    
-    .maintext{position: relative;
-    left: 40%;
-    top:20px;
-    font-size: 50px;
-    color: rgb(45, 45, 88);
-    text-shadow: 5px 5px 10px;
-    
-    }
+
+
     
     
     .text333{
@@ -215,6 +200,7 @@
     font-weight: bold;
     font-size: 90px;
     color: rgb(153, 150, 147);
+    text-shadow: 5px 5px 15px black
     }
     
     .infott{width: 30%;
@@ -222,7 +208,8 @@
     position: relative;
     left: 42%;
     color: rgb(249, 249, 253);
-    font-size: 35px;
+    font-size: 45px;
     bottom: 65%;
-    font-weight: bold;
-    text-shadow: 5px 5px 15px black;}
+    font-family: 'Nanum Pen Script', cursive;
+
+    text-shadow: 5px 5px 15px rgb(109, 99, 99);}

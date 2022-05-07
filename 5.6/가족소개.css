@@ -2,9 +2,11 @@ body{
     margin: 0;
     padding: 0;
  }
-
+ 
  /* 0------------------------------헤더시작------------------------
  하이퍼 a태그 스타일 + */
+
+ .fa-solid {color: red;}
  #header{
    background-color: white;
    border-bottom:1px solid lightgray;
@@ -48,13 +50,28 @@ text-decoration: none;}
   
  .ff{display: flex;
     justify-content: center;
-    width: 90%;
+    width: 80%;
     position: relative;
-    left: 5%;
-    background-image: url(/프로필사진/누나프로필배경4.jpg);
+    left: 10%;
+    top:30%;
+    height: 700px;
+    background-color: rgb(247, 220, 179);
    
     
     }
+
+    .ff_text{position: relative;
+      text-align: center;
+      top: 0%;
+      font-size: 40px;
+      color: rgb(255, 246, 246);
+    font-size: 100px;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color:rgb(247, 172, 33);
+    width: 80%;
+    left: 10%;
+    
+}
     
     .box {
         width: 300px;
@@ -63,8 +80,9 @@ text-decoration: none;}
         overflow: hidden;
         margin: 50px;
         position: relative;
-        top: 40%;
-        right: 5%;
+        top: 20%;
+        right: 2%;
+        background-color: rgb(36, 30, 22);
         
         
     }
@@ -82,11 +100,7 @@ text-decoration: none;}
         transform: scale(1.4);
       }
 
-.ff_text{position: relative;
-left: 40%;
-top:10%;
-font-size: 40px;
-color: rgb(80, 143, 199);}
+
 
  
  
